@@ -1,0 +1,21 @@
+1)cat /proc/version
+Linux version 3.2.0-26-generic-pae (buildd@lamiak) (gcc version 4.6.3 (Ubuntu/Linaro 4.6.3-1ubuntu5) ) #41-Ubuntu SMP Thu Jun 14 16:45:14 UTC 2012
+2)cat /proc/filesystems
+	ext3
+-->Means it supports ex3 filesystems
+3)cat /proc/meminfo
+SwapTotal:       8265724 kB
+SwapFree:        8265724 kB
+4)cat /proc/cmdline
+nfsroot=10.0.25.100:/vol/vm/plus.seas.upenn.edu xencons=tty1 ip=10.0.25.203:10.0.25.100:10.0.25.1:255.255.255.0:plus:eth1:none
+5)cat /proc/9055/cmdline
+/usr/lib/firefox/firefoxemretanirgan@Emre:/proc/9055$ 
+6)cat /proc/cpuinfo
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i7-2720QM CPU @ 2.20GHz
+stepping	: 7
+microcode	: 0x15
+cpu MHz		: 800.000
