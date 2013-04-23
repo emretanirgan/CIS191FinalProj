@@ -1,0 +1,6 @@
+#!/bin/sh
+echo Pushed
+cd /home/git/ServedFiles
+unset GIT_DIR
+git pull server master
+cp ./* /home/ubuntu/ServedFiles/
