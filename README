@@ -1,0 +1,10 @@
+Link to Hosted pages:
+server.html : http://ec2-54-214-111-205.us-west-2.compute.amazonaws.com/server.html
+output of EMRETAN.o : http://ec2-54-214-111-205.us-west-2.compute.amazonaws.com/output.html
+output of EMRETAN_proc_fun.txt : http://ec2-54-214-111-205.us-west-2.compute.amazonaws.com/procfun.html
+
+Link to GitHub repo:
+https://github.com/emretanirgan/CIS191FinalProj
+
+My Post-receive hook:
+My post-receive hook basically pulls the bare repository at the server to another local repository that's also on the server. This way I was able to obtain the files I pushed instead of ending up with the hashes. Then I just move them to my ubuntu home directory and I serve these files.
